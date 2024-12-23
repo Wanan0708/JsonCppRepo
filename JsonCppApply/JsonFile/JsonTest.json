@@ -1,0 +1,58 @@
+{
+    "result": {
+        "songs": [
+            {
+                "id": 1412022124,
+                "name": "晴天",
+                "artists": [
+                    {
+                        "id": 30000975,
+                        "name": "空匪",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "fansGroup": null,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 84358777,
+                    "name": "winter",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "fansGroup": null,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1577289600000,
+                    "size": 1,
+                    "copyrightId": 1416590,
+                    "status": 0,
+                    "picId": 109951164579389026,
+                    "mark": 0
+                },
+                "duration": 202000,
+                "copyrightId": 1416590,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 17179877376
+            }
+        ],
+        "songCount": 354
+    },
+    "code": 200
+}

@@ -1,0 +1,7 @@
+﻿  Building Custom Rule F:/Users/chd/Downloads/jsoncpp-master/jsoncpp-master/src/lib_json/CMakeLists.txt
+  json_reader.cpp
+  json_value.cpp
+  json_writer.cpp
+  正在生成代码...
+    正在创建库 E:/Project/VSProject/JsonCppLib/lib/Debug/jsoncpp.lib 和对象 E:/Project/VSProject/JsonCppLib/lib/Debug/jsoncpp.exp
+  jsoncpp_lib.vcxproj -> E:\Project\VSProject\JsonCppLib\bin\Debug\jsoncpp.dll

@@ -1,0 +1,10 @@
+^E:\PROJECT\VSPROJECT\JSONCPPLIB\CMAKEFILES\6FB1EAA0EAF74E21A17445F3875E7B21\GENERATE.STAMP.RULE
+setlocal
+E:\Softwore\cmake-3.31.3-windows-x86_64\bin\cmake.exe -SF:/Users/chd/Downloads/jsoncpp-master/jsoncpp-master -BE:/Project/VSProject/JsonCppLib --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Project/VSProject/JsonCppLib/jsoncpp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

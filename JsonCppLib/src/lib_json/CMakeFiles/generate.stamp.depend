@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckCXXSymbolExists.cmake
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckIncludeFile.cmake
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckSourceCompiles.cmake
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckStructHasMember.cmake
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckSymbolExists.cmake
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckTypeSize.cmake
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake
+F:/Users/chd/Downloads/jsoncpp-master/jsoncpp-master/src/lib_json/CMakeLists.txt

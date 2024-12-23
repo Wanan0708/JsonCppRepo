@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/FindPackageMessage.cmake
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/FindPython/Support.cmake
+E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/FindPython3.cmake
+F:/Users/chd/Downloads/jsoncpp-master/jsoncpp-master/src/jsontestrunner/CMakeLists.txt

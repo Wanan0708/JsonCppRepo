@@ -1,0 +1,602 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:57 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:57 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+      鐢熸垚鍚姩鏃堕棿涓?2024/12/23 21:04:23銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:02.50
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Project/VSProject/JsonCppLib/CMakeFiles/3.31.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:57 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-pj11ne"
+      binary: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-pj11ne"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Users/chd/Downloads/jsoncpp-master/jsoncpp-master/cmake"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-pj11ne'
+        
+        Run Build Command(s): E:/Softwore/VisualStudio/install/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fea18.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2024/12/23 21:04:26銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-pj11ne\\cmTC_fea18.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_fea18.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-pj11ne\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_fea18.dir\\Debug\\cmTC_fea18.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_fea18.dir\\Debug\\cmTC_fea18.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_fea18.dir\\Debug\\cmTC_fea18.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fea18.dir\\Debug\\\\" /Fd"cmTC_fea18.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Softwore\\cmake-3.31.3-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34435 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fea18.dir\\Debug\\\\" /Fd"cmTC_fea18.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Softwore\\cmake-3.31.3-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-pj11ne\\Debug\\cmTC_fea18.exe" /INCREMENTAL /ILK:"cmTC_fea18.dir\\Debug\\cmTC_fea18.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-pj11ne/Debug/cmTC_fea18.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-pj11ne/Debug/cmTC_fea18.lib" /MACHINE:X64  /machine:x64 cmTC_fea18.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_fea18.vcxproj -> E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-pj11ne\\Debug\\cmTC_fea18.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_fea18.dir\\Debug\\cmTC_fea18.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_fea18.dir\\Debug\\cmTC_fea18.tlog\\cmTC_fea18.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-pj11ne\\cmTC_fea18.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.88
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:57 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': E:/Softwore/VisualStudio/install/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:57 (project)"
+    message: |
+      Running the CXX compiler's linker: "E:/Softwore/VisualStudio/install/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34435.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:97 (check_function_exists)"
+    checks:
+      - "Looking for memset_s"
+    directories:
+      source: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-9t84xe"
+      binary: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-9t84xe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Users/chd/Downloads/jsoncpp-master/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_MEMSET_S"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-9t84xe'
+        
+        Run Build Command(s): E:/Softwore/VisualStudio/install/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4e13c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2024/12/23 21:04:29銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-9t84xe\\cmTC_4e13c.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_4e13c.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-9t84xe\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_4e13c.dir\\Debug\\cmTC_4e13c.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_4e13c.dir\\Debug\\cmTC_4e13c.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_4e13c.dir\\Debug\\cmTC_4e13c.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memset_s /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4e13c.dir\\Debug\\\\" /Fd"cmTC_4e13c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-9t84xe\\CheckFunctionExists.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34435 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memset_s /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4e13c.dir\\Debug\\\\" /Fd"cmTC_4e13c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-9t84xe\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-9t84xe\\Debug\\cmTC_4e13c.exe" /INCREMENTAL /ILK:"cmTC_4e13c.dir\\Debug\\cmTC_4e13c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-9t84xe/Debug/cmTC_4e13c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-9t84xe/Debug/cmTC_4e13c.lib" /MACHINE:X64  /machine:x64 cmTC_4e13c.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?memset_s锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-9t84xe\\cmTC_4e13c.vcxproj]
+        E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-9t84xe\\Debug\\cmTC_4e13c.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-9t84xe\\cmTC_4e13c.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-9t84xe\\cmTC_4e13c.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-9t84xe\\cmTC_4e13c.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?memset_s锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-9t84xe\\cmTC_4e13c.vcxproj]
+          E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-9t84xe\\Debug\\cmTC_4e13c.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-9t84xe\\cmTC_4e13c.vcxproj]
+        
+            0 涓鍛?
+            2 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.85
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "src/lib_json/CMakeLists.txt:11 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include clocale"
+    directories:
+      source: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-ezt4pk"
+      binary: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-ezt4pk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Users/chd/Downloads/jsoncpp-master/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_CLOCALE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-ezt4pk'
+        
+        Run Build Command(s): E:/Softwore/VisualStudio/install/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_00954.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2024/12/23 21:04:32銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ezt4pk\\cmTC_00954.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_00954.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ezt4pk\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_00954.dir\\Debug\\cmTC_00954.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_00954.dir\\Debug\\cmTC_00954.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_00954.dir\\Debug\\cmTC_00954.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_00954.dir\\Debug\\\\" /Fd"cmTC_00954.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ezt4pk\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34435 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_00954.dir\\Debug\\\\" /Fd"cmTC_00954.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ezt4pk\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        Link:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ezt4pk\\Debug\\cmTC_00954.exe" /INCREMENTAL /ILK:"cmTC_00954.dir\\Debug\\cmTC_00954.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-ezt4pk/Debug/cmTC_00954.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-ezt4pk/Debug/cmTC_00954.lib" /MACHINE:X64  /machine:x64 cmTC_00954.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_00954.vcxproj -> E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ezt4pk\\Debug\\cmTC_00954.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_00954.dir\\Debug\\cmTC_00954.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_00954.dir\\Debug\\cmTC_00954.tlog\\cmTC_00954.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ezt4pk\\cmTC_00954.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.06
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckCXXSymbolExists.cmake:74 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/lib_json/CMakeLists.txt:12 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for localeconv"
+    directories:
+      source: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-bpwa81"
+      binary: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-bpwa81"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Users/chd/Downloads/jsoncpp-master/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_LOCALECONV"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-bpwa81'
+        
+        Run Build Command(s): E:/Softwore/VisualStudio/install/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_25c15.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2024/12/23 21:04:34銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-bpwa81\\cmTC_25c15.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_25c15.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-bpwa81\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_25c15.dir\\Debug\\cmTC_25c15.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_25c15.dir\\Debug\\cmTC_25c15.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_25c15.dir\\Debug\\cmTC_25c15.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25c15.dir\\Debug\\\\" /Fd"cmTC_25c15.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-bpwa81\\CheckSymbolExists.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34435 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25c15.dir\\Debug\\\\" /Fd"cmTC_25c15.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-bpwa81\\CheckSymbolExists.cxx"
+          CheckSymbolExists.cxx
+        Link:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-bpwa81\\Debug\\cmTC_25c15.exe" /INCREMENTAL /ILK:"cmTC_25c15.dir\\Debug\\cmTC_25c15.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-bpwa81/Debug/cmTC_25c15.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-bpwa81/Debug/cmTC_25c15.lib" /MACHINE:X64  /machine:x64 cmTC_25c15.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_25c15.vcxproj -> E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-bpwa81\\Debug\\cmTC_25c15.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_25c15.dir\\Debug\\cmTC_25c15.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_25c15.dir\\Debug\\cmTC_25c15.tlog\\cmTC_25c15.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-bpwa81\\cmTC_25c15.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.00
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckTypeSize.cmake:266 (check_include_file_cxx)"
+      - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
+    checks:
+      - "Looking for C++ include sys/types.h"
+    directories:
+      source: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-95btqy"
+      binary: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-95btqy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Users/chd/Downloads/jsoncpp-master/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-95btqy'
+        
+        Run Build Command(s): E:/Softwore/VisualStudio/install/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f026e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2024/12/23 21:04:37銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-95btqy\\cmTC_f026e.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f026e.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-95btqy\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f026e.dir\\Debug\\cmTC_f026e.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_f026e.dir\\Debug\\cmTC_f026e.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f026e.dir\\Debug\\cmTC_f026e.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f026e.dir\\Debug\\\\" /Fd"cmTC_f026e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-95btqy\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34435 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f026e.dir\\Debug\\\\" /Fd"cmTC_f026e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-95btqy\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        Link:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-95btqy\\Debug\\cmTC_f026e.exe" /INCREMENTAL /ILK:"cmTC_f026e.dir\\Debug\\cmTC_f026e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-95btqy/Debug/cmTC_f026e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-95btqy/Debug/cmTC_f026e.lib" /MACHINE:X64  /machine:x64 cmTC_f026e.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f026e.vcxproj -> E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-95btqy\\Debug\\cmTC_f026e.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_f026e.dir\\Debug\\cmTC_f026e.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f026e.dir\\Debug\\cmTC_f026e.tlog\\cmTC_f026e.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-95btqy\\cmTC_f026e.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.01
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckTypeSize.cmake:271 (check_include_file_cxx)"
+      - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
+    checks:
+      - "Looking for C++ include stdint.h"
+    directories:
+      source: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-nwn6fq"
+      binary: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-nwn6fq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Users/chd/Downloads/jsoncpp-master/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-nwn6fq'
+        
+        Run Build Command(s): E:/Softwore/VisualStudio/install/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9eaf5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2024/12/23 21:04:39銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-nwn6fq\\cmTC_9eaf5.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_9eaf5.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-nwn6fq\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_9eaf5.dir\\Debug\\cmTC_9eaf5.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_9eaf5.dir\\Debug\\cmTC_9eaf5.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_9eaf5.dir\\Debug\\cmTC_9eaf5.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9eaf5.dir\\Debug\\\\" /Fd"cmTC_9eaf5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-nwn6fq\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34435 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9eaf5.dir\\Debug\\\\" /Fd"cmTC_9eaf5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-nwn6fq\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        Link:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-nwn6fq\\Debug\\cmTC_9eaf5.exe" /INCREMENTAL /ILK:"cmTC_9eaf5.dir\\Debug\\cmTC_9eaf5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-nwn6fq/Debug/cmTC_9eaf5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-nwn6fq/Debug/cmTC_9eaf5.lib" /MACHINE:X64  /machine:x64 cmTC_9eaf5.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_9eaf5.vcxproj -> E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-nwn6fq\\Debug\\cmTC_9eaf5.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_9eaf5.dir\\Debug\\cmTC_9eaf5.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_9eaf5.dir\\Debug\\cmTC_9eaf5.tlog\\cmTC_9eaf5.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-nwn6fq\\cmTC_9eaf5.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.99
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckTypeSize.cmake:272 (check_include_file_cxx)"
+      - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
+    checks:
+      - "Looking for C++ include stddef.h"
+    directories:
+      source: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-we4m9b"
+      binary: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-we4m9b"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Users/chd/Downloads/jsoncpp-master/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-we4m9b'
+        
+        Run Build Command(s): E:/Softwore/VisualStudio/install/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8358c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2024/12/23 21:04:42銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-we4m9b\\cmTC_8358c.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_8358c.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-we4m9b\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_8358c.dir\\Debug\\cmTC_8358c.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_8358c.dir\\Debug\\cmTC_8358c.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_8358c.dir\\Debug\\cmTC_8358c.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8358c.dir\\Debug\\\\" /Fd"cmTC_8358c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-we4m9b\\CheckIncludeFile.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34435 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8358c.dir\\Debug\\\\" /Fd"cmTC_8358c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-we4m9b\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        Link:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-we4m9b\\Debug\\cmTC_8358c.exe" /INCREMENTAL /ILK:"cmTC_8358c.dir\\Debug\\cmTC_8358c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-we4m9b/Debug/cmTC_8358c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-we4m9b/Debug/cmTC_8358c.lib" /MACHINE:X64  /machine:x64 cmTC_8358c.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_8358c.vcxproj -> E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-we4m9b\\Debug\\cmTC_8358c.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_8358c.dir\\Debug\\cmTC_8358c.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_8358c.dir\\Debug\\cmTC_8358c.tlog\\cmTC_8358c.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-we4m9b\\cmTC_8358c.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.15
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
+    checks:
+      - "Check size of lconv"
+    directories:
+      source: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-ia90hy"
+      binary: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-ia90hy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Users/chd/Downloads/jsoncpp-master/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_LCONV_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-ia90hy'
+        
+        Run Build Command(s): E:/Softwore/VisualStudio/install/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9233e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2024/12/23 21:04:45銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ia90hy\\cmTC_9233e.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_9233e.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ia90hy\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_9233e.dir\\Debug\\cmTC_9233e.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_9233e.dir\\Debug\\cmTC_9233e.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_9233e.dir\\Debug\\cmTC_9233e.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9233e.dir\\Debug\\\\" /Fd"cmTC_9233e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ia90hy\\LCONV_SIZE.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34435 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9233e.dir\\Debug\\\\" /Fd"cmTC_9233e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ia90hy\\LCONV_SIZE.cpp"
+          LCONV_SIZE.cpp
+        Link:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ia90hy\\Debug\\cmTC_9233e.exe" /INCREMENTAL /ILK:"cmTC_9233e.dir\\Debug\\cmTC_9233e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-ia90hy/Debug/cmTC_9233e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-ia90hy/Debug/cmTC_9233e.lib" /MACHINE:X64  /machine:x64 cmTC_9233e.dir\\Debug\\LCONV_SIZE.obj
+          cmTC_9233e.vcxproj -> E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ia90hy\\Debug\\cmTC_9233e.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_9233e.dir\\Debug\\cmTC_9233e.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_9233e.dir\\Debug\\cmTC_9233e.tlog\\cmTC_9233e.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-ia90hy\\cmTC_9233e.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.92
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckSourceCompiles.cmake:89 (cmake_check_source_compiles)"
+      - "E:/Softwore/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckStructHasMember.cmake:81 (CHECK_SOURCE_COMPILES)"
+      - "src/lib_json/CMakeLists.txt:17 (check_struct_has_member)"
+    checks:
+      - "Performing Test HAVE_DECIMAL_POINT"
+    directories:
+      source: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-0vd8ex"
+      binary: "E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-0vd8ex"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Users/chd/Downloads/jsoncpp-master/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_DECIMAL_POINT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-0vd8ex'
+        
+        Run Build Command(s): E:/Softwore/VisualStudio/install/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ed9ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
+        鐢熸垚鍚姩鏃堕棿涓?2024/12/23 21:04:47銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-0vd8ex\\cmTC_ed9ce.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ed9ce.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-0vd8ex\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ed9ce.dir\\Debug\\cmTC_ed9ce.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_ed9ce.dir\\Debug\\cmTC_ed9ce.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ed9ce.dir\\Debug\\cmTC_ed9ce.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_DECIMAL_POINT /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ed9ce.dir\\Debug\\\\" /Fd"cmTC_ed9ce.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-0vd8ex\\src.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.42.34435 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_DECIMAL_POINT /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ed9ce.dir\\Debug\\\\" /Fd"cmTC_ed9ce.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-0vd8ex\\src.cxx"
+          src.cxx
+        Link:
+          E:\\Softwore\\VisualStudio\\install\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-0vd8ex\\Debug\\cmTC_ed9ce.exe" /INCREMENTAL /ILK:"cmTC_ed9ce.dir\\Debug\\cmTC_ed9ce.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-0vd8ex/Debug/cmTC_ed9ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Project/VSProject/JsonCppLib/CMakeFiles/CMakeScratch/TryCompile-0vd8ex/Debug/cmTC_ed9ce.lib" /MACHINE:X64  /machine:x64 cmTC_ed9ce.dir\\Debug\\src.obj
+          cmTC_ed9ce.vcxproj -> E:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-0vd8ex\\Debug\\cmTC_ed9ce.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_ed9ce.dir\\Debug\\cmTC_ed9ce.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ed9ce.dir\\Debug\\cmTC_ed9ce.tlog\\cmTC_ed9ce.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Project\\VSProject\\JsonCppLib\\CMakeFiles\\CMakeScratch\\TryCompile-0vd8ex\\cmTC_ed9ce.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.94
+        
+      exitCode: 0
+...
